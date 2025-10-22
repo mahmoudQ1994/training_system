@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(135deg, #e6f0ff 0%, #f5faff 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.login-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+    padding: 35px 30px;
+    text-align: center;
+    direction: rtl;
+}
+
+.login-header .logo {
+    width: 10%;          /* 👈 حجم صغير وأنيق */
+    height: 10%;         /* 👈 حجم صغير وأنيق */
+    margin: 0 auto 2px auto;
+    display: block;
+    border-radius: 50%;   /* يجعلها تبدو كأيقونة دائرية ناعمة */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف لإبرازها */
+}
+.login-header h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #003366;
+    margin-bottom: 5px;
+}
+.system-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #003366;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+.sub-title {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* الحقول */
+label {
+    display: block;
+    font-weight: 600;
+    color: #003366;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #00264d;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    color: #777;
+}
+
+.footer-text a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
