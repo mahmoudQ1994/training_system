@@ -20,6 +20,8 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
+Auth::routes(['register' => false]);
+
 // لوحة التحكم
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
